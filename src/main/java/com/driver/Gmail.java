@@ -8,9 +8,9 @@ import java.util.Date;
 public class Gmail extends Email {
 
     int inboxCapacity;
-    ArrayList<Date> inbox1;
-    ArrayList<String> inbox2;
-    ArrayList<Date> trash;
+   private ArrayList<Date> inbox1;
+  private   ArrayList<String> inbox2;
+   private ArrayList<Date> trash;
 
     //maximum number of mails inbox can store
     //Inbox: Stores mails. Each mail has date (Date), sender (String), message (String). It is guaranteed that message is distinct for all mails.
