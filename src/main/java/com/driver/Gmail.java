@@ -2,9 +2,6 @@ package com.driver;
 
 import java.util.ArrayList;
 import java.util.Date;
-
-
-
 public class Gmail extends Email {
 
     int inboxCapacity;
